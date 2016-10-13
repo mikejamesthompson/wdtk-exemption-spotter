@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "WDTK Exemption Spotter",
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": {
+        "19" : "icon-19x19.png",
+        "48" : "icon-48x48.png",
+        "128" : "icon-128x128.png"
+      }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.whatdotheyknow.com/request/*"
+      ],
+      "js": ["exemptions.js", "content.js"],
+      "css": ["exemptions.css"]
+    }
+  ]
+}
