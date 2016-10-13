@@ -4,9 +4,9 @@
   "version": "0.1",
   "browser_action": {
     "default_icon": {
-        "19" : "icon-19x19.png",
-        "48" : "icon-48x48.png",
-        "128" : "icon-128x128.png"
+        "19" : "img/icon-19x19.png",
+        "48" : "img/icon-48x48.png",
+        "128" : "img/icon-128x128.png"
       }
   },
   "background": {
@@ -18,7 +18,7 @@
         "https://www.whatdotheyknow.com/request/*"
       ],
       "js": ["exemptions.js", "content.js"],
-      "css": ["exemptions.css"]
+      "css": ["css/exemptions.css"]
     }
   ]
 }
