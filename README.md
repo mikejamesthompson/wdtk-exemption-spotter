@@ -6,5 +6,5 @@ It's by no means complete: some more specific exemptions (like section 22a: http
 As this is not a properly packaged extension, in order to install and play around with it, follow the advice here: https://developer.chrome.com/extensions/getstarted#unpacked
 
 - Content.js contains the JavaScript that's doing the work
-- Background.js monitors for clicks on the extension's action button
+- Background.js holds the code that monitors for clicks on the extension's action button
 - Exemptions.js contains a JavaScript object with all the exemption data in
